@@ -1,28 +1,43 @@
 .header{
-	color: #222;
+	color: black;
 	width: 100%;
 	height: 40px;
 	margin-top: 0px;
-	position: absolute;
-}
-.header_info{
-		float:right;
-		text-align: right;
-		
+
 
 }
-#gmail, #images{
-	
+.header_info{
+	float:right;
+	margin-right:130px;
+}
+#gmail, #images {
 	display: inline-block;
-	margin-top: 10px;
-	margin-left: 5px;
 	font-family: arial, sans-serif;
-	padding-left: 10px;
-	padding-right: 10px;
 	font-size: 13px;
-	line-height: 24px;
 	color: black;
-	float: left;
+	margin-right: 15px;
+}
+#signin {
+	width:69px;
+	height:24px;
+	float:right;
+	border: 1px solid #4285F4;
+    background: #4387FD;
+    border-radius: 2px;
+    margin-top:7px;
+   
+}
+#signin p{
+	
+	font-weight:bold;
+	font-size:14px;
+	color:white;
+	position:relative;
+	bottom:12px;
+	left: 10px;
+	font-family:arial, sans-serif;
+
+
 }
 .googlelogo{
 	margin: 200px 0 0 800px;
@@ -43,17 +58,48 @@
 	height: 36px;
 }
 .google_search p {
-	padding-top: 9px;
-	padding-left: 15px;
-	font-size: 15px;
-	font-family: arial, sans-serif;
+    font-family: arial, sans-serif;
 	color: #606060;
+	text-align: center;
+	padding-top: 12px;
+	font-size: 13px;
+	font-weight: bold;
 }
 
 .im_feeling_lucky{
 	background-color: #F0F0F0;
-	margin: -43px 0 0 150px;
+	margin: -40px 0 0 150px;
 	width: 135px;
 	height: 36px;
+
+}
+
+.footer{
+	width:100%;
+	height:40px;
+	background-color:#f2f2f2;
+	position: fixed;
+	bottom:0px;
+	border:1px solid #e4e4e4;
+	border-radius:4px;
+
+}
+.footright p{
+	display:inline-block;
+	padding-left:25px;
+	position:relative;
+	bottom:7px;
+	color:#666;
+	font-family:arial, sans-serif;
+	font-size: 16px;
+}
+#footleft p{
+	display:inline-block;
+	position:relative;
+	bottom:60px;
+	left:1650px;
+	color:#666;
+	font-family:arial, sans-serif;
+	font-size: 16px;
 
 }
